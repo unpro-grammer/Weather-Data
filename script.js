@@ -48,5 +48,12 @@ searchButton.addEventListener("click", () => {
 })
 
 
+//enable ENTER key to process search
 
+searchInput.addEventListener("keypress", function(v) {
+  if (v.key === "Enter") {
+    v.preventDefault();
+    retrieveWeather(searchInput.value);
+  }
+});
 

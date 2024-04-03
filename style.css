@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   max-width: 470px;
   background: linear-gradient(135deg, #739ac7, #595583);
   color: #13151a;

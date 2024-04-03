@@ -50,10 +50,17 @@ searchButton.addEventListener("click", () => {
 
 //enable ENTER key to process search
 
-searchInput.addEventListener("keypress", function(v) {
+searchInput.addEventListener("keypress", function (v) {
   if (v.key === "Enter") {
     v.preventDefault();
     retrieveWeather(searchInput.value);
   }
 });
 
+
+// const el = document.querySelector(".wrapper");
+
+// el.addEventListener("mousemove", (e) => {
+//   el.style.backgroundPositionX = -e.offsetX/100 + "px";
+//   el.style.backgroundPositionY = -e.offsetY/100 + "px";
+// });

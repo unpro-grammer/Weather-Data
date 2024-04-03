@@ -13,7 +13,7 @@ body {
   width: 90%;
   max-width: 470px;
   background: linear-gradient(135deg, #739ac7, #595583);
-  color: #fff;
+  color: #222;
   margin: 100px auto 0; /* left-right margin: auto */
   border-radius: 20px;
   padding: 40px 35px;
@@ -21,7 +21,7 @@ body {
 }
 
 .search-icon {
-  width: 20px;
+  width: 40px;
 }
 
 .search {
@@ -33,7 +33,7 @@ body {
 
 .search input {
   border: 0;
-  background: #eeeff3;
+  background: #222;
   outline: 0;
   color: #4b4755;
   height: 50px;
@@ -45,20 +45,20 @@ body {
 }
 
 .search button {
-  background: #eeeff3;
+  background: #222;
   border: 0;
   outline: 0;
   height: 50px;
   width: 50px;
   cursor: pointer;
   border-radius: 50%;
-  transition: background-color 0.15s;
+  transition: opacity 0.15s;
 }
 
 .search button:hover {
-  background-color: #d1d2e2;
+  opacity: 0.85;
 }
 
 .search button:active {
-  background-color: #eeeff3;
+  opacity: 0.7;
 }

@@ -22,7 +22,7 @@ body {
 
 .search-icon {
   width: 40px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .search {
@@ -36,7 +36,7 @@ body {
   border: 0;
   background: #13151a;
   outline: 0;
-  color: #4b4755;
+  color: #bdbbc7;
   height: 50px;
   border-radius: 25px;
   padding-left: 25px;

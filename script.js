@@ -26,13 +26,17 @@ async function retrieveWeather(city) {
     if (data.weather[0].main == "Clouds") {
       weatherIcon.src = "images/cloudy.png"
     } else if (data.weather[0].main == "Drizzle") {
-      weatherIcon.src = "images/drizzle.png"
+      weatherIcon.src = "images/drizzling.png"
     } else if (data.weather[0].main == "Clear") {
       weatherIcon.src = "images/sunny.png"
     } else if (data.weather[0].main == "Mist") {
-      weatherIcon.src = "images/mist.png"
+      weatherIcon.src = "images/misty.png"
     } else if (data.weather[0].main == "Rain") {
       weatherIcon.src = "images/raining.png"
+    } else if (data.weather[0].main == "Thunderstorm") {
+      weatherIcon.src = "images/stormy.png"
+    } else if (data.weather[0].main == "Snow") {
+      weatherIcon.src = "images/snowing.png"
     }
 
     document.querySelector(".weather").style.display = "block";

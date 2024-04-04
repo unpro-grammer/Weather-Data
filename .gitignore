@@ -16,6 +16,11 @@
 # Mono auto generated files
 mono_crash.*
 
+#api keys
+.env
+apiStorage.js
+*.json
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
